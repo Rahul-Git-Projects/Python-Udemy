@@ -1,4 +1,5 @@
 txt_main = input("Please enter any passage or poem or just a simple word that you wish and it will be analysed in different ways (without commas,punctuation,special operators) ")
+
 l_1 = input("Please enter any three letters in the english alphabets (in the case you gave it in your text)\nFirst letter? ")
 l_2 = input("Second letter? ")
 l_3 = input("Third letter? ")
