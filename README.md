@@ -1,2 +1,2 @@
 # Python-Udemy
-my python projects from udemy
+My Python Projects from Udemy
