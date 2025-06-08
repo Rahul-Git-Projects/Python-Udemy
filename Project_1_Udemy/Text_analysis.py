@@ -1,15 +1,17 @@
 txt_main = input("Please enter any passage or poem or just a simple word that you wish and it will be analysed in different ways (without commas,punctuation,special operators) ")
-l_1 = input("Please enter any three letters in the english alphabets (in the case you gave it in your text)\nFirst letter? ")
+
+l_1 = input("Please enter any three letters in the English alphabets (in the case you gave it in your text)\nFirst letter? ")
 l_2 = input("Second letter? ")
 l_3 = input("Third letter? ")
 
 l_1_count = txt_main.count(l_1)
 l_2_count = txt_main.count(l_2)
 l_3_count = txt_main.count(l_3)
+
 print("\n")
-print(f"1.{l_1} has appeared {l_1_count} times in your given text")
-print(f"{l_2} has appeared {l_2_count} times in your given text")
-print(f"{l_3} has appeared {l_3_count} times in your given text")
+print(f"1.{l_1} has appeared {l_1_count} times in your given text ")
+print(f"{l_2} has appeared {l_2_count} times in your given text ")
+print(f"{l_3} has appeared {l_3_count} times in your given text ")
 
 words = txt_main.split(" ")
 no_of_words = str(len(words))
