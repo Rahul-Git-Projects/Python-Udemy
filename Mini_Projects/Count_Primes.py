@@ -8,9 +8,15 @@ def is_prime(n):
             return False
     return True
 
-print(is_prime(5))
+def count_primes(num):
+    count = 0
+    for n in range(1,num+1):
+        if is_prime(n):
+            count += 1
+    return count
 
-        
+
+print(count_primes(17))
 
 
 
